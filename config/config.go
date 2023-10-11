@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-var Conf = new(Config)
+var Conf = &Config{}
 
 type Config struct {
 	Version      string `mapstructure:"version"`
