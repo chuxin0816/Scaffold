@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	"scaffold/config"
+	"scaffold/dao/mysql"
+	"scaffold/dao/redis"
+	"scaffold/logger"
+	"scaffold/router"
 
-	"github.com/chuxin0816/Scaffold/config"
-	"github.com/chuxin0816/Scaffold/dao/mysql"
-	"github.com/chuxin0816/Scaffold/dao/redis"
-	"github.com/chuxin0816/Scaffold/logger"
-	"github.com/chuxin0816/Scaffold/router"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
 )
 

@@ -2,8 +2,8 @@ package redis
 
 import (
 	"fmt"
+	"scaffold/config"
 
-	"github.com/chuxin0816/Scaffold/config"
 	"github.com/go-redis/redis"
 )
 

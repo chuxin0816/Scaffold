@@ -2,8 +2,8 @@ package mysql
 
 import (
 	"fmt"
+	"scaffold/config"
 
-	"github.com/chuxin0816/Scaffold/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

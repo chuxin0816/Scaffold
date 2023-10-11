@@ -3,9 +3,9 @@ package logger
 import (
 	"os"
 	"path"
+	"scaffold/config"
 	"time"
 
-	"github.com/chuxin0816/Scaffold/config"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
 	"github.com/hertz-contrib/logger/zap"
 	"gopkg.in/natefinch/lumberjack.v2"

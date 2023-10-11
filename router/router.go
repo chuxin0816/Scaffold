@@ -3,8 +3,8 @@ package router
 import (
 	"context"
 	"fmt"
+	"scaffold/config"
 
-	"github.com/chuxin0816/Scaffold/config"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/cloudwego/hertz/pkg/common/utils"
