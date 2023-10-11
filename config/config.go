@@ -10,6 +10,7 @@ var Conf = &Config{}
 
 type Config struct {
 	Version      string `mapstructure:"version"`
+	JwtKey       string `mapstructure:"jwt_key"`
 	*HertzConfig `mapstructure:"hertz"`
 	*LogConfig   `mapstructure:"log"`
 	*MysqlConfig `mapstructure:"mysql"`
